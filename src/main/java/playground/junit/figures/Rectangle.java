@@ -1,21 +1,19 @@
 package playground.junit.figures;
 
-public class Square {
-
+public class Rectangle {
     private int a;
+    private int b;
 
-    public Square(int a) {
-
+    public Rectangle(int a, int b) {
         this.a = a;
+        this.b = b;
     }
 
     public int area() {
-
-        return a*a;
+        return a*b;
     }
 
     public int circuit() {
-
-        return 4*a;
+        return 2*a + 2*b;
     }
 }
